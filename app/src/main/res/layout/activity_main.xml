@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.administrator.layout2.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="暴雪科技公司"
+        android:gravity="top"
+        android:textSize="28pt"
+        android:background="#aabb00"
+        android:padding="20dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="育碧公司"
+        android:gravity="right"
+        android:textSize="30pt"
+        android:background="#cc00aa"
+        android:padding="20dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="电信联盟"
+        android:gravity="top"
+        android:textSize="20pt"
+        android:background="#00bbaa"
+        android:padding="20dip" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="联通服务"
+        android:gravity="top"
+        android:textSize="20pt"
+        android:background="#ccbbaa"
+        android:padding="30dip" />
+
+</LinearLayout>
